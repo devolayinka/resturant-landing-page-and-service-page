@@ -1,0 +1,94 @@
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body
+{background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(./img/shakes3.jpg);
+   background-position:cover;
+   background-size:cover 10px;
+   background-repeat:no-repeat;
+   width:100%;
+   justify-content: center;
+   align-items:center;
+    display:flex;
+    margin:0;
+   min-height:100vh;  
+   color:green;
+  
+/*background-color:rgb(46, 45, 45);
+   background-color:rgb(172, 169, 169);*/
+   font-family:sans-serif; 
+}
+.container{
+    background-color:rgb(232, 233, 232);  
+    max-width:100%; 
+    width:400px;
+    padding:10px 15px;
+    border-radius:10px;
+   
+}
+.header{
+    text-align:center;
+    padding:10px;
+   margin:5px;
+    text-transform: capitalize;
+}
+.form{
+    padding:10px 20px;
+    cursor: pointer;
+    font-size:20px;
+}
+.form-body{
+   margin-bottom:10px;
+   padding:10px 20px; 
+}
+label {
+    display:block;
+    margin-bottom:10px;
+}
+input{
+    padding:10px 15px;
+    width:100%;
+    border-radius:3px;
+    outline:none;
+    border:none;
+    display:inline-block;
+    font-size:18px;  
+}
+/*input:active{
+border:1px solid green;
+}*/
+input:focus{
+    border:1px solid green;
+}
+::placeholder{
+    color:green;
+    font-style:italic;
+    text-transform:capitalize;
+    font-size:14px;
+}
+button{
+    width:inherit;
+    padding:10px 20px; 
+    text-align:center;
+    font-size:17px;
+    color:inherit;
+    background:inherit;
+   border:none;
+    border-radius:3px;
+    cursor: pointer;
+    margin:20px;
+    width:88%;
+    font-weight:bold;
+    background:green;
+    color:white;
+}
+button:hover{
+    background:rgb(11, 151, 11);
+}
+
+
+
+
